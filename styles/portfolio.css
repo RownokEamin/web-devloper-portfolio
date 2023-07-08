@@ -8,9 +8,16 @@ body{
 .button-primary{
     border-radius: 5px;
     background:rgb(171, 117, 196);
+    border: 0px;
+    font-size: 20px;
+    color: antiquewhite;
+    font-weight: 700;
+    padding: 15px 20px;
 }
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 nav.title{
     color: #181818;
@@ -19,6 +26,8 @@ font-weight: 800;
 }
 nav > ul{
     display: flex;
+    align-items: center;
+    margin: 0 200px;
 }
 nav li{
 
@@ -28,4 +37,17 @@ margin-right: 50px;
 nav a{
     text-decoration: none;
     color: cadetblue;
+}
+.header{
+    background-color:whitesmoke ;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-picture {
+     width: 500px;
+     height: 400px;
+
 }
