@@ -1,0 +1,31 @@
+body{
+    font-family: 'Open Sans', sans-serif;  
+}
+.text-primary{
+    color: chocolate;
+    font-size:40px;
+}
+.button-primary{
+    border-radius: 5px;
+    background:rgb(171, 117, 196);
+}
+nav{
+    display: flex;
+}
+nav.title{
+    color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+
+list-style: none;
+margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: cadetblue;
+}
