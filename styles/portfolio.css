@@ -140,7 +140,7 @@ margin-bottom: 10px;
 
 .resume-item-title, .resume-item-description{
     color: #757575;
-font-size: 25px;
+font-size: 20px;
 font-weight: 700;
 margin-bottom: 10px;
 }
@@ -148,10 +148,15 @@ margin-bottom: 10px;
     text-align: center;
     margin-top: 50px;
 }
-.socia-link, .footer-coloumn{
+footer{
     display: flex;
     background: #FFF8F3;
-    padding: 130px 200px;
     margin-top: 100px;
+    gap: 100px;
 }
-
+.footer-coloumn{
+    width: 50%;
+}
+.Contact,{
+ me
+}
